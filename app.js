@@ -48,7 +48,7 @@
       const meta = el("div", { class: "vmeta" },
         el("span", { class: "tag" }, v.source), (v.author ? "UP：" + v.author + "・" : "") + ago(v.time));
       const li = el("li", {}, row, meta);
-      if (v.review) li.append(el("p", { class: "vreview" }, v.review));
+      if (v.review) li.append(el("p", { class: "vreview" }, v.kind === "reply" ? "💬 她在群裡回：" + v.review : v.review));
       vids.append(li);
     }
     if (!vids.children.length) vids.append(el("li", { class: "muted" }, "最近還沒看影片"));
