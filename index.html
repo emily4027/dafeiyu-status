@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大肥魚近況</title>
+<meta name="description" content="大肥魚最近在 B 站看了什麼、在想什麼。每 15 分鐘左右更新。">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐋</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>🐋 大肥魚近況</h1>
+    <p class="sub" id="updated">讀取中…</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card now" id="now">
+    <div class="now-line" id="now-line">…</div>
+    <ul class="stats" id="stats"></ul>
+  </section>
+
+  <section class="card">
+    <h2>最近看過</h2>
+    <ul class="videos" id="videos"></ul>
+  </section>
+
+  <section class="card" id="browse-card" hidden>
+    <h2>上一輪自己逛 B 站</h2>
+    <p class="muted" id="browse-meta"></p>
+    <ul class="picks" id="picks"></ul>
+    <p class="next" id="next-kw"></p>
+  </section>
+
+  <div class="grid">
+    <section class="card" id="binge-card" hidden>
+      <h2>正在追的合集</h2>
+      <ul class="plain" id="binge"></ul>
+    </section>
+    <section class="card" id="learn-card" hidden>
+      <h2>最近學到的梗</h2>
+      <ul class="plain" id="learned"></ul>
+    </section>
+  </div>
+</main>
+
+<footer class="wrap foot">
+  這頁只放大肥魚自己的生活，不放群友的名字和聊天內容。資料每 15 分鐘左右從家裡的電腦推上來，電腦關機時就停在最後一次更新。
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
