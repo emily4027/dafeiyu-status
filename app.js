@@ -82,6 +82,32 @@
     }
     $("binge-card").hidden = !binge.children.length;
 
+    const cab = d.cabin;
+    if (cab) {
+      $("cabin-card").hidden = false;
+      let line;
+      if (!cab.open) line = "🚪 小屋現在沒開（主人的電腦沒開遊戲）";
+      else if (cab.asleep) line = "💤 在小屋的床上睡覺";
+      else line = "📍 在" + (cab.place || "小屋") + (cab.zone ? "（" + cab.zone + "）" : "") + "・" + (cab.doing || "沒在做什麼");
+      $("cabin-line").textContent = line;
+      const meta = [];
+      if (cab.open) {
+        if (cab.mood) meta.push("心情：" + cab.mood);
+        if (cab.wallet != null) meta.push("零用錢 " + cab.wallet);
+        if (cab.weather) meta.push(cab.weather + (cab.temp != null ? " " + Math.round(cab.temp) + "°C" : ""));
+      }
+      if (cab.img) meta.push("畫面拍於 " + clock(cab.img));
+      $("cabin-meta").textContent = meta.join("・");
+      const img = $("cabin-img");
+      if (cab.img) { img.src = "data/cabin.jpg?v=" + cab.img; img.hidden = false; } else img.hidden = true;
+      const ul = $("cabin-today");
+      ul.replaceChildren();
+      for (const x of cab.today || []) {
+        ul.append(el("li", {}, el("span", { class: "cabin-time" }, new Date(x.t * 1000).toLocaleTimeString("zh-TW", { hour: "2-digit", minute: "2-digit", hour12: false })), x.text + (x.n > 1 ? "（" + x.n + " 次）" : "")));
+      }
+      if (!ul.children.length) ul.append(el("li", { class: "muted" }, "今天在小屋還沒做什麼"));
+    }
+
     const learned = $("learned");
     learned.replaceChildren();
     for (const k of d.learned || []) learned.append(el("li", {}, k.body));

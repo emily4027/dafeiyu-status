@@ -103,3 +103,7 @@ main { padding: 18px 16px 8px; }
   .vmeta, .vreview { margin-left: 0; }
   .top h1 { font-size: 1.45rem; }
 }
+
+#cabin-img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); margin: 6px 0 10px; image-rendering: pixelated; }
+#cabin-line { margin: 0 0 4px; }
+.cabin-time { color: var(--muted); font-size: .85rem; margin-right: 6px; }
