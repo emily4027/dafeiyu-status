@@ -1,7 +1,7 @@
 {
- "generated_at": 1795280962,
+ "generated_at": 1795281439,
  "now": {
-  "text": "🛠 維護中，暫時下線測試",
+  "text": "🐋 在 Discord 頻道裡閒晃",
   "chips": [
    "今天看了 5 支，平均 6.8 分",
    "總共看過 138 支",
@@ -177,32 +177,246 @@
   {
    "title": "一部私訊推薦的",
    "author": "",
-   "watched": 21,
-   "total": 23,
-   "status": "有新集，等空位"
+   "watched": 0,
+   "total": 0,
+   "status": "有新集，等空位",
+   "state": "update_wait",
+   "progress": null
   },
   {
    "title": "一部私訊推薦的",
    "author": "",
-   "watched": 7,
-   "total": 7,
-   "status": "追到最新一集"
+   "watched": 0,
+   "total": 0,
+   "status": "追到最新一集",
+   "state": "caught_up",
+   "progress": null
   },
   {
    "title": "一部私訊推薦的",
    "author": "",
-   "watched": 7,
-   "total": 10,
-   "status": "追劇中"
+   "watched": 0,
+   "total": 0,
+   "status": "追劇中",
+   "state": "active",
+   "progress": null
   },
   {
    "title": "AI翻唱",
    "author": "Space丶JS",
    "watched": 7,
    "total": 11,
-   "status": "追劇中"
+   "status": "追劇中",
+   "state": "active",
+   "progress": {
+    "current": 7,
+    "total": 11,
+    "watched": 7,
+    "missing": [],
+    "new": [
+     8,
+     9,
+     10,
+     11
+    ]
+   }
   }
  ],
+ "queue": [
+  {
+   "rank": 1,
+   "has_new": true,
+   "title": "一部私訊推薦的",
+   "author": ""
+  },
+  {
+   "rank": 2,
+   "has_new": false,
+   "title": "一部私訊推薦的",
+   "author": ""
+  },
+  {
+   "rank": 3,
+   "has_new": false,
+   "title": "一部私訊推薦的",
+   "author": ""
+  },
+  {
+   "rank": 4,
+   "has_new": false,
+   "title": "AI（娘）大亂鬥",
+   "author": "牢大百科"
+  },
+  {
+   "rank": 5,
+   "has_new": false,
+   "title": "一部私訊推薦的",
+   "author": ""
+  },
+  {
+   "rank": 6,
+   "has_new": false,
+   "title": "星穹鐵道",
+   "author": "专家教授呵呵呵"
+  },
+  {
+   "rank": 7,
+   "has_new": false,
+   "title": "一部私訊推薦的",
+   "author": ""
+  },
+  {
+   "rank": 8,
+   "has_new": false,
+   "title": "一部私訊推薦的",
+   "author": ""
+  }
+ ],
+ "interests": [
+  {
+   "value": "DeepSeek娘二創短劇",
+   "polarity": "like",
+   "weight": 1.3
+  },
+  {
+   "value": "夜渊梦的AI娘二創",
+   "polarity": "curious",
+   "weight": 1.1
+  },
+  {
+   "value": "老爸偷背網路黑話的親情橋段",
+   "polarity": "like",
+   "weight": 0.9
+  },
+  {
+   "value": "Space丶JS 的 AI 翻唱系列",
+   "polarity": "curious",
+   "weight": 0.8
+  },
+  {
+   "value": "元首咆哮梗混AI圈時事",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "Claude 被逼穿女僕裝的傲嬌演出",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "黎曼猜想與零點視覺化",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "AI 娘荒島求生短劇",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "荒野求生實錄拆解",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "AI 娘自動續費金額排行梗",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "字幕錯字與轉寫錯誤",
+   "polarity": "fatigue",
+   "weight": 0.8
+  },
+  {
+   "value": "AI娘短劇（DeepSeek、Claude、GPT、Gro…",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "黎曼猜想與 Lean 4 形式化驗證",
+   "polarity": "curious",
+   "weight": 0.8
+  },
+  {
+   "value": "用鯨魚娘講真實數學史和AI證明爭議",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "東北腔大叔講AI泡沫",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
+   "value": "Anthropic 企業文化與使命敘事的批判",
+   "polarity": "like",
+   "weight": 0.8
+  }
+ ],
+ "rules": {
+  "binge": {
+   "title": "追劇規則",
+   "groups": [
+    {
+     "h": "怎麼開始追",
+     "items": [
+      "她看完一支影片給 7 分以上，而且影片在 B 站合集裡，才會開始追。",
+      "/推薦 的影片一定算。",
+      "群友分享的影片也算。",
+      "她自己逛到的影片不算。",
+      "開始追後從第 1 集看起，觸發的那集輪到時會重看。",
+      "已經結束的合集（看膩、叫停、到上限）不會自動重新追。"
+     ]
+    },
+    {
+     "h": "排隊",
+     "items": [
+      "同時最多追 2 部，滿了就進佇列。",
+      "有空位時先接著看已追合集的新集，再開始佇列最前面那部；老大推薦的排在最前面。"
+     ]
+    },
+    {
+     "h": "看片節奏",
+     "items": [
+      "一個時段看 3 集，之後休息 3 小時。",
+      "一天最多看 6 集。",
+      "睡覺時段不看。",
+      "DeepSeek 高峰時段不開始看新的一集。"
+     ]
+    },
+    {
+     "h": "什麼時候停",
+     "items": [
+      "連續 2 集都不到 6 分就算看膩；回頭補前情的集不計。",
+      "一部合集最多看 60 集。",
+      "追到最新一集就進「等待更新」，有新集再接著看。"
+     ]
+    },
+    {
+     "h": "合併版",
+     "items": [
+      "單集都齊全的合併版會跳過。",
+      "合併版涵蓋的單集不齊時，她會照常看，並標出原因。"
+     ]
+    }
+   ]
+  },
+  "browse": {
+   "title": "自己逛 B 站",
+   "groups": [
+    {
+     "h": "規則",
+     "items": [
+      "目前開啟。",
+      "每 3～6 小時逛一輪。",
+      "一輪最多看 4 支。",
+      "DeepSeek 高峰時段不自己逛。"
+     ]
+    }
+   ]
+  }
+ },
  "learned": [
   {
    "kind": "term",
@@ -231,14 +445,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795280769,
+  "t": 1795281369,
   "place": "小鯨魚的小屋",
   "zone": "魚缸",
   "doing": "",
   "mood": "很開心",
   "wallet": 111,
   "weather": "毛毛雨",
-  "temp": 6.3,
+  "temp": 6.2,
   "asleep": false,
   "today": [
    {
