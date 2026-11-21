@@ -4,61 +4,65 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>大肥魚近況</title>
-<meta name="description" content="大肥魚最近在 B 站看了什麼、在想什麼。每 15 分鐘左右更新。">
+<meta name="description" content="大肥魚最近在 B 站看了什麼、在追什麼。每 15 分鐘左右更新。">
 <meta name="referrer" content="no-referrer">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐋</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐟</text></svg>">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
-  <div class="wrap">
-    <h1>🐋 大肥魚近況</h1>
-    <p class="sub" id="updated">讀取中…</p>
-  </div>
-</header>
+<div class="wrap">
+  <header>
+    <h1>🐟 大肥魚近況</h1>
+    <span class="meta" id="updated">讀取中…</span>
+    <button id="theme" type="button">切換深淺色</button>
+  </header>
+  <nav>
+    <a href="#s-cabin">🏡 小屋</a><a href="#s-videos">🎬 看影片</a><a href="#s-interest">❤️ 興趣</a>
+    <a href="#s-binge">📺 追劇</a><a href="#s-browse">🔎 自己逛</a><a href="#s-learned">📖 學到的梗</a>
+  </nav>
 
-<main class="wrap">
-  <section class="card now" id="now">
-    <div class="now-line" id="now-line">…</div>
-    <ul class="stats" id="stats"></ul>
+  <div class="card now"><div class="now-line" id="now-line">…</div><div class="chips" id="stats"></div></div>
+
+  <section id="s-cabin" hidden><h2>🏡 小屋</h2>
+    <div class="grid">
+      <div class="card"><h3>她現在</h3><div class="now-line" id="cabin-line"></div><div class="note" id="cabin-meta"></div>
+        <img id="cabin-img" alt="大肥魚在小屋世界的畫面" hidden></div>
+      <div class="card"><h3>今天在小屋</h3><div class="tbl-wrap sm"><table id="cabin-today"></table></div></div>
+    </div>
   </section>
 
-  <section class="card" id="cabin-card" hidden>
-    <h2>🏠 小屋</h2>
-    <p class="now-line" id="cabin-line"></p>
-    <p class="muted" id="cabin-meta"></p>
-    <img id="cabin-img" alt="大肥魚在小屋世界的畫面" hidden>
-    <ul class="plain" id="cabin-today"></ul>
+  <section id="s-videos"><h2>🎬 看影片</h2>
+    <div class="card"><h3>最近看過</h3>
+      <div class="filters" id="v-filters"></div>
+      <div class="tbl-wrap"><table id="v-table"></table></div></div>
   </section>
 
-  <section class="card">
-    <h2>最近看過</h2>
-    <ul class="videos" id="videos"></ul>
+  <section id="s-interest" hidden><h2>❤️ 興趣（看影片累積的口味，近 30 天）</h2>
+    <div class="card"><div id="interests" class="tbl-wrap"></div><div class="legend" id="int-legend"></div></div>
   </section>
 
-  <section class="card" id="browse-card" hidden>
-    <h2>上一輪自己逛 B 站</h2>
-    <p class="muted" id="browse-meta"></p>
-    <ul class="picks" id="picks"></ul>
-    <p class="next" id="next-kw"></p>
+  <section id="s-binge"><h2>📺 追劇（合集）<button class="help" data-help="binge" type="button">說明</button></h2>
+    <div class="card">
+      <div class="zones">
+        <div><h4>▶ 正在看 <span class="muted" id="bz-active-n"></span></h4><div id="bz-active" class="tbl-wrap sm"></div></div>
+        <div><h4>⏳ 等待更新 <span class="muted" id="bz-wait-n"></span></h4><div id="bz-wait" class="tbl-wrap sm"></div></div>
+        <div><h4>📋 佇列中 <span class="muted" id="bz-queue-n"></span></h4><div id="bz-queue" class="tbl-wrap sm"></div></div>
+      </div>
+      <details id="bz-ended" hidden><summary id="bz-ended-sum"></summary><div id="bz-ended-list" class="tbl-wrap sm"></div></details>
+    </div>
   </section>
 
-  <div class="grid">
-    <section class="card" id="binge-card" hidden>
-      <h2>正在追的合集</h2>
-      <ul class="plain" id="binge"></ul>
-    </section>
-    <section class="card" id="learn-card" hidden>
-      <h2>最近學到的梗</h2>
-      <ul class="plain" id="learned"></ul>
-    </section>
-  </div>
-</main>
+  <section id="s-browse" hidden><h2>🔎 上一輪自己逛 B 站<button class="help" data-help="browse" type="button">說明</button></h2>
+    <div class="card"><div class="note" id="browse-meta"></div><div class="tbl-wrap"><table id="picks"></table></div><div class="note" id="next-kw"></div></div>
+  </section>
 
-<footer class="wrap foot">
-  這頁只放大肥魚自己的生活，不放群友的名字和聊天內容。資料每 15 分鐘左右從家裡的電腦推上來，電腦關機時就停在最後一次更新。
-</footer>
+  <section id="s-learned" hidden><h2>📖 最近學到的梗</h2>
+    <div class="card"><div class="tbl-wrap sm" id="learned"></div></div>
+  </section>
 
+  <footer>這頁只放大肥魚自己的生活，不放群友的名字、聊天內容和私訊推薦。資料每 15 分鐘左右從家裡的電腦推上來，電腦關機時就停在最後一次更新。這裡只能看，不能編輯。</footer>
+</div>
+<dialog id="help-dlg" aria-labelledby="help-title"><div class="help-head"><h3 id="help-title"></h3><button id="help-close" type="button">關閉</button></div><div class="help-body" id="help-body"></div></dialog>
 <script src="app.js"></script>
 </body>
 </html>
