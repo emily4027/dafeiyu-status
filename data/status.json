@@ -1,5 +1,5 @@
 {
- "generated_at": 1795284485,
+ "generated_at": 1795285387,
  "now": {
   "text": "🛠 維護中，暫時下線測試",
   "chips": [
@@ -471,16 +471,8 @@
   }
  ],
  "cabin": {
-  "open": true,
-  "t": 1795284369,
-  "place": "公園小賣部",
-  "zone": "收銀臺",
-  "doing": "",
-  "mood": "滿足",
-  "wallet": 107,
-  "weather": "陣雨",
-  "temp": 4.2,
-  "asleep": false,
+  "open": false,
+  "t": 1795285269,
   "today": [
    {
     "t": 1795283451,
