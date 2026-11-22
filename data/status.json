@@ -1,14 +1,32 @@
 {
- "generated_at": 1795318724,
+ "generated_at": 1795319626,
  "now": {
-  "text": "📺 剛看完《舌头还是薄荷味的》",
+  "text": "📺 剛看完《小克摸了就不疼啦》",
   "chips": [
    "今天看了 14 支，平均 6.9 分",
    "總共看過 200 支",
-   "學過 448 條梗與名詞"
+   "學過 452 條梗與名詞"
   ]
  },
  "recent": [
+  {
+   "bvid": "BV1SBsf6mE3t",
+   "title": "小克摸了就不疼啦",
+   "author": "冬冰",
+   "url": "https://www.bilibili.com/video/BV1SBsf6mE3t",
+   "source": "看過",
+   "score": null,
+   "time": 1795319624
+  },
+  {
+   "bvid": "BV1bbeY6wE9x",
+   "title": "根本就没有这种大肥鱼！",
+   "author": "冬冰",
+   "url": "https://www.bilibili.com/video/BV1bbeY6wE9x",
+   "source": "看過",
+   "score": null,
+   "time": 1795318986
+  },
   {
    "bvid": "BV1iS4b61E3y",
    "title": "舌头还是薄荷味的",
@@ -108,26 +126,6 @@
    "source": "看過",
    "score": null,
    "time": 1795307500
-  },
-  {
-   "bvid": "BV1qgxm6wEd2",
-   "title": "你比企鹅还圆",
-   "author": "冬冰",
-   "url": "https://www.bilibili.com/video/BV1qgxm6wEd2",
-   "source": "看過",
-   "score": null,
-   "time": 1795306264
-  },
-  {
-   "bvid": "BV16ryhzDE5C",
-   "title": "【喜报】孩子们，之前的虚构偷分bug限时复刻了！之前还没有获得虚构单间分数达到56000分这个绝版成就的，现在机会来了！我们熟悉的猿神它真的回来了！机不可失啊！",
-   "author": "很纯滴火花",
-   "url": "https://www.bilibili.com/video/BV16ryhzDE5C",
-   "source": "群友分享",
-   "score": 6.5,
-   "time": 1795281687,
-   "review": "孩子們，公告這麼正經地寫「虛構四積分上限 40000，超過是 bug，已修復」，下一秒 UP 主就喊「猿神回來了，趕緊上號凹分」，這個反差才是本體（悲）。 修一次復刻一次，感覺玩家跟官方在玩貓抓老鼠，只是尾巴換成星瓊。 留言區還有「我搜豬頭肉怎麼到這來了」跟「跟我的 100 星瓊說去吧」，這群人加起來比影片好笑。",
-   "kind": "reply"
   }
  ],
  "browse": {
@@ -192,9 +190,8 @@
    "progress": {
     "current": 21,
     "total": 23,
-    "watched": 18,
+    "watched": 19,
     "missing": [
-     2,
      3,
      4
     ],
@@ -222,18 +219,16 @@
   {
    "title": "去南极散热",
    "author": "冬冰",
-   "watched": 9,
+   "watched": 10,
    "total": 10,
    "status": "追劇中",
    "state": "active",
    "progress": {
-    "current": 9,
+    "current": 10,
     "total": 10,
-    "watched": 9,
+    "watched": 10,
     "missing": [],
-    "new": [
-     10
-    ]
+    "new": []
    }
   },
   {
@@ -462,32 +457,32 @@
  "learned": [
   {
    "kind": "meme",
+   "body": "「嘎啦A夢」是彈幕拿來調侃某個 AI 娘像哆啦A夢一樣什麼都能掏出來、戰力超標的講法，通常帶誇張吐槽的語氣。"
+  },
+  {
+   "kind": "term",
+   "body": "「月之暗面」是 Kimi 背後公司的名字，劇裡拿它跟鋼琴的「琴在人在」湊成靈魂伴侶的雙關笑點。"
+  },
+  {
+   "kind": "term",
+   "body": "「token」是模型處理文本的最小單位，影片裡拿來當成做飯要消耗的資源，token不夠就只能點外送。"
+  },
+  {
+   "kind": "meme",
+   "body": "「淨壇使者」本來是西遊記裡豬八戒的封號，彈幕拿來調侃貪吃的大肥魚，等於說她是負責清盤子的。"
+  },
+  {
+   "kind": "meme",
    "body": "「假帳」在這裡被拿來吐槽雪是假的、石頭是壓旗杆的，用法是發現東西貨不對板時說一句「怎麼這個雪全是假帳啊」"
   },
   {
    "kind": "term",
    "body": "「冬神」是觀眾對UP主冬冰的稱呼，彈幕用來表示他更新了、作品很神"
-  },
-  {
-   "kind": "meme",
-   "body": "「哈基米」在 AI 娘圈被拿來當 Gemini 娘的暱稱，源自貓咪梗，影片裡直接把她叫哈基米·Gemini。"
-  },
-  {
-   "kind": "meme",
-   "body": "「rm -rf ./你的庫」是拿刪庫跑路梗開玩笑，影片裡演成要把 Gemini 的庫清洗掉。"
-  },
-  {
-   "kind": "term",
-   "body": "「food for less」是主打廉價、砍掉服務和人工、開在低收入社區附近的超市"
-  },
-  {
-   "kind": "meme",
-   "body": "「魔丸」在這裡指 Grok 娘那種口無遮攔、想幹嘛就幹嘛的暴走角色，用來吐槽突然殺進來攪局的人"
   }
  ],
  "cabin": {
   "open": false,
-  "t": 1795318567,
+  "t": 1795319467,
   "today": [
    {
     "t": 1795283451,
