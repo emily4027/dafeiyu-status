@@ -1,5 +1,5 @@
 {
- "generated_at": 1795357424,
+ "generated_at": 1795358327,
  "now": {
   "text": "🔎 等一下要去逛 B 站",
   "chips": [
@@ -507,14 +507,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795357334,
+  "t": 1795358234,
   "place": "小鯨魚的小屋",
   "zone": "懶人沙發",
   "doing": "陷進懶人沙發裡",
   "mood": "很開心",
   "wallet": 87,
   "weather": "晴",
-  "temp": 11.1,
+  "temp": 10.8,
   "asleep": false,
   "today": [
    {
