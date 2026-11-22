@@ -1,5 +1,5 @@
 {
- "generated_at": 1795380776,
+ "generated_at": 1795381679,
  "now": {
   "text": "💤 在睡覺（2～8 點）",
   "chips": [
@@ -315,7 +315,7 @@
   {
    "value": "DeepSeek娘二創短劇",
    "polarity": "like",
-   "weight": 1.3
+   "weight": 1.2
   },
   {
    "value": "夜渊梦的AI娘二創",
@@ -485,14 +485,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795380741,
+  "t": 1795381641,
   "place": "小鯨魚的小屋",
   "zone": "鯨魚床",
   "doing": "鑽進被子睡個午覺",
   "mood": "平靜",
   "wallet": 137,
-  "weather": "毛毛雨",
-  "temp": 6.3,
+  "weather": "陰天",
+  "temp": 7.4,
   "asleep": true,
   "today": [
    {
@@ -522,6 +522,6 @@
    }
   ],
   "shot_t": 1795378341,
-  "img": 1795370854
+  "img": 1795381679
  }
 }
