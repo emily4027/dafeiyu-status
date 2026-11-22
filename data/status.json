@@ -1,7 +1,7 @@
 {
- "generated_at": 1795320529,
+ "generated_at": 1795321432,
  "now": {
-  "text": "📺 剛看完《完啦完啦！用户彻底怒了！》",
+  "text": "🐋 在 Discord 頻道裡閒晃",
   "chips": [
    "今天看了 14 支，平均 6.9 分",
    "總共看過 200 支",
@@ -220,8 +220,8 @@
    "author": "冬冰",
    "watched": 10,
    "total": 10,
-   "status": "追劇中",
-   "state": "active",
+   "status": "追到最新一集",
+   "state": "caught_up",
    "progress": {
     "current": 10,
     "total": 10,
@@ -249,59 +249,62 @@
      11
     ]
    }
+  },
+  {
+   "title": "家養ai",
+   "author": "中分_背带裤",
+   "watched": 0,
+   "total": 12,
+   "status": "追劇中",
+   "state": "active",
+   "progress": null
   }
  ],
  "queue": [
   {
    "rank": 1,
    "has_new": false,
-   "title": "家養ai",
-   "author": "中分_背带裤"
-  },
-  {
-   "rank": 2,
-   "has_new": false,
    "title": "文明與地圖",
    "author": "再改需求是修勾"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "has_new": false,
    "title": "AI（娘）大亂鬥",
    "author": "牢大百科"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "has_new": false,
    "title": "大肥魚",
    "author": "这个刀子真甜"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "has_new": false,
    "title": "大肥魚的奇妙生活",
    "author": "四月于谎言"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "has_new": false,
    "title": "小劇場",
    "author": "这个刀子真甜"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "has_new": false,
    "title": "肥魚劇場",
    "author": "Aka叶子先生-"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "has_new": false,
    "title": "我的大肥魚宇宙",
    "author": "真誠最高"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "has_new": false,
    "title": "AI情公寓（或許愛情？）",
    "author": "沉默寡言佰佰佰"
@@ -481,7 +484,7 @@
  ],
  "cabin": {
   "open": false,
-  "t": 1795320367,
+  "t": 1795321267,
   "today": [
    {
     "t": 1795283451,
