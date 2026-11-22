@@ -1,5 +1,5 @@
 {
- "generated_at": 1795359229,
+ "generated_at": 1795360131,
  "now": {
   "text": "🐋 在 Discord 頻道裡閒晃",
   "chips": [
@@ -293,23 +293,17 @@
   {
    "rank": 3,
    "has_new": false,
-   "title": "肥魚劇場",
-   "author": "Aka叶子先生-"
-  },
-  {
-   "rank": 4,
-   "has_new": false,
    "title": "我的大肥魚宇宙",
    "author": "真誠最高"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "has_new": false,
    "title": "AI情公寓（或許愛情？）",
    "author": "沉默寡言佰佰佰"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "has_new": false,
    "title": "阿哈大小姐想讓我告白",
    "author": "御坂魔丸"
@@ -489,14 +483,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795359134,
+  "t": 1795360034,
   "place": "小鯨魚的小屋",
   "zone": "懶人沙發",
   "doing": "窩在沙發上看漫畫",
   "mood": "很開心",
   "wallet": 87,
   "weather": "晴",
-  "temp": 10.5,
+  "temp": 10.2,
   "asleep": false,
   "today": [
    {
@@ -550,7 +544,7 @@
     "text": "剛下水時燙得吸了口氣，很快就暖到心裡，臉上也慢慢發熱；整個人暖暖的，很放鬆"
    }
   ],
-  "shot_t": 1795355834,
+  "shot_t": 1795359434,
   "img": 1795353899
  }
 }
