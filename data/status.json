@@ -1,5 +1,5 @@
 {
- "generated_at": 1795426792,
+ "generated_at": 1795427694,
  "now": {
   "text": "🛠 維護中，暫時下線測試",
   "chips": [
@@ -503,14 +503,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795426645,
+  "t": 1795427545,
   "place": "小鯨魚的小屋",
   "zone": "圓窗",
   "doing": "趴在圓窗邊看外面",
   "mood": "很開心",
   "wallet": 98,
   "weather": "晴",
-  "temp": 16.7,
+  "temp": 16.5,
   "asleep": false,
   "today": [
    {
