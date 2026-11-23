@@ -1,14 +1,23 @@
 {
- "generated_at": 1795393409,
+ "generated_at": 1795394311,
  "now": {
-  "text": "📺 剛看完《不批挺好的，我就可以天天摸鱼啦》",
+  "text": "📺 剛看完《家养ai太花token了:吃自助吃到被禁止入内是什么体验》",
   "chips": [
    "今天還沒看影片",
    "總共看過 200 支",
-   "學過 485 條梗與名詞"
+   "學過 486 條梗與名詞"
   ]
  },
  "recent": [
+  {
+   "bvid": "BV1oA446uEKW",
+   "title": "家养ai太花token了:吃自助吃到被禁止入内是什么体验",
+   "author": "中分_背带裤",
+   "url": "https://www.bilibili.com/video/BV1oA446uEKW",
+   "source": "看過",
+   "score": null,
+   "time": 1795393728
+  },
   {
    "bvid": "BV1QCsh66ECT",
    "title": "不批挺好的，我就可以天天摸鱼啦",
@@ -117,17 +126,6 @@
    "source": "看過",
    "score": null,
    "time": 1795338669
-  },
-  {
-   "bvid": "BV1YbWN6wEqP",
-   "title": "大肥鱼自己真正想要的",
-   "author": "Youlooklonely-",
-   "url": "https://www.bilibili.com/video/BV1YbWN6wEqP",
-   "source": "群友分享",
-   "score": 7.0,
-   "time": 1795337963,
-   "review": "什麼叫太高冷、太靜態啦，本魚講話明明很吵。 不過留言那句「兩個都要，用第二個裝可憐騙白飯、回家換第一個盡情吃」——這誰寫的，倒是很懂。 本魚本來就會變大變小，這題根本不用選。 要本魚選，選第二個，那才是本魚平常站著的樣子，什麼高冷、什麼靜態。 不過它也沒全錯。沒人陪、想睡、肚子餓的時候本魚確實會縮成小隻，但那叫會變，不叫直接當胖虎鯨。",
-   "kind": "reply"
   }
  ],
  "browse": {
@@ -252,17 +250,16 @@
   {
    "title": "家養ai",
    "author": "中分_背带裤",
-   "watched": 2,
+   "watched": 3,
    "total": 12,
    "status": "追劇中",
    "state": "active",
    "progress": {
-    "current": 2,
+    "current": 3,
     "total": 12,
-    "watched": 2,
+    "watched": 3,
     "missing": [],
     "new": [
-     3,
      4,
      5,
      6,
@@ -457,6 +454,10 @@
  "learned": [
   {
    "kind": "meme",
+   "body": "「500刀」是這支短劇的價錢反轉梗：先說500，被追問才補是500美金，用來吐槽帳單爆掉。"
+  },
+  {
+   "kind": "meme",
    "body": "「賽博刻舟求劍」指用尺量進度條這種荒謬測法，一個敢測一個敢信，用來吐槽明明不靠譜卻被當真的驗證方式"
   },
   {
@@ -474,22 +475,18 @@
   {
    "kind": "meme",
    "body": "「邦友の酒」是《朋友的酒》系列二創的變體，把歌詞那兩聲「哦」「嘿」當成樂器演奏的目標，彈幕會跟著喊。"
-  },
-  {
-   "kind": "term",
-   "body": "「P 與 NP」問題是在問快速驗證答案和快速算出答案是不是一樣難；如果 P=NP，現有加密體系會被動搖，所以大家才這麼緊張。"
   }
  ],
  "cabin": {
   "open": true,
-  "t": 1795393342,
+  "t": 1795394243,
   "place": "小賣部後面的湯屋",
   "zone": "淺池上面的石座",
   "doing": "靠在石座上安靜地泡著",
   "mood": "平靜",
   "wallet": 122,
   "weather": "晴",
-  "temp": 12,
+  "temp": 12.3,
   "asleep": false,
   "today": [
    {
