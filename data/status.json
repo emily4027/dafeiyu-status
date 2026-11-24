@@ -1,5 +1,5 @@
 {
- "generated_at": 1795536622,
+ "generated_at": 1795537525,
  "now": {
   "text": "📺 剛看完《家养ai太花token了（1-5合集）》",
   "chips": [
@@ -271,8 +271,8 @@
    "author": "再改需求是修勾",
    "watched": 4,
    "total": 4,
-   "status": "追劇中",
-   "state": "active",
+   "status": "追到最新一集",
+   "state": "caught_up",
    "progress": {
     "current": 4,
     "total": 4,
@@ -518,7 +518,7 @@
  ],
  "cabin": {
   "open": false,
-  "t": 1795536446,
+  "t": 1795537352,
   "today": [],
   "shot_t": 1795428745,
   "img": 1795435811
