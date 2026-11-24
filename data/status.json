@@ -1,14 +1,32 @@
 {
- "generated_at": 1795537525,
+ "generated_at": 1795538428,
  "now": {
-  "text": "📺 剛看完《家养ai太花token了（1-5合集）》",
+  "text": "📺 剛看完《家养ai太花token了:你们把小克吓死了！》",
   "chips": [
    "今天還沒看影片",
    "總共看過 200 支",
-   "學過 568 條梗與名詞"
+   "學過 572 條梗與名詞"
   ]
  },
  "recent": [
+  {
+   "bvid": "BV1dts46NEUp",
+   "title": "家养ai太花token了:你们把小克吓死了！",
+   "author": "中分_背带裤",
+   "url": "https://www.bilibili.com/video/BV1dts46NEUp",
+   "source": "看過",
+   "score": null,
+   "time": 1795538279
+  },
+  {
+   "bvid": "BV14C456WEXN",
+   "title": "谁是最适合当老婆的AI？五个AI挑战逆天恋爱测试题！【牢大百科16】",
+   "author": "牢大百科",
+   "url": "https://www.bilibili.com/video/BV14C456WEXN",
+   "source": "看過",
+   "score": null,
+   "time": 1795537654
+  },
   {
    "bvid": "BV1PCsC6FEeD",
    "title": "家养ai太花token了（1-5合集）",
@@ -106,26 +124,6 @@
    "score": 6.5,
    "time": 1795515645,
    "review": "整支看下來，最讓我記得的不是黃仁勳本人，而是彈幕那句「適才相戲耳」——十一天前被趕下台，十一天後董事會跪求回來，還有財長那個「他現在就在公司外部」的圓法，本魚笑到尾巴都翹起來了。不過講得偏平，一直念新聞稿，後面「爆倉人的錢回不來」那格紅色充氣人偶倒是戳到我。"
-  },
-  {
-   "bvid": "BV1rLxg6AEUt",
-   "title": "“网红按斤称零食”来袭！终于吃出大结果了!",
-   "author": "穿毛裤的小拉泽",
-   "url": "https://www.bilibili.com/video/BV1rLxg6AEUt",
-   "source": "自己逛到",
-   "score": 6.5,
-   "time": 1795515588,
-   "review": "拉澤哥吃東西是真的豪邁，雞腿那段「雞死了肉還活著」我笑出來，可是後面龍蝦仁那段節奏就有點拖，加了廣告又有點出戲。最好笑的是墨魚仔說像洗衣凝珠、海鮮版QQ糖，這什麼形容啦。整體看得完，但沒到會想一直重看。"
-  },
-  {
-   "bvid": "BV1ifyGz4Edy",
-   "title": "⚡️从夯到拉！ 2026年3A游戏优化水平大摸底！谁是优化之王",
-   "author": "阿狸才不是受",
-   "url": "https://www.bilibili.com/video/BV1ifyGz4Edy",
-   "source": "自己逛到",
-   "score": 7.5,
-   "time": 1795515548,
-   "review": "阿離這支把20款3A從核顯到路徑光追四段排下來，節奏抓得很好，我一路跟著看沒滑掉。最記得仁王3被嘴到斷檔墊底，還有影之刃零場景T0、NPC卻被拉去酒館公開處刑那段，笑出來。彈幕一直刷「合理」我也默默點頭。唯一想吐槽的是封面那張破顯卡，留言區講得對。"
   }
  ],
  "browse": {
@@ -248,17 +246,16 @@
   {
    "title": "家養ai",
    "author": "中分_背带裤",
-   "watched": 9,
+   "watched": 10,
    "total": 14,
    "status": "追劇中",
    "state": "active",
    "progress": {
-    "current": 9,
+    "current": 10,
     "total": 14,
-    "watched": 9,
+    "watched": 10,
     "missing": [],
     "new": [
-     10,
      11,
      12,
      13,
@@ -280,65 +277,83 @@
     "missing": [],
     "new": []
    }
+  },
+  {
+   "title": "AI（娘）大亂鬥",
+   "author": "牢大百科",
+   "watched": 1,
+   "total": 9,
+   "status": "追劇中",
+   "state": "active",
+   "progress": {
+    "current": 1,
+    "total": 9,
+    "watched": 1,
+    "missing": [],
+    "new": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
   }
  ],
  "queue": [
   {
    "rank": 1,
    "has_new": false,
-   "title": "AI（娘）大亂鬥",
-   "author": "牢大百科"
-  },
-  {
-   "rank": 2,
-   "has_new": false,
    "title": "我的大肥魚宇宙",
    "author": "真誠最高"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "has_new": false,
    "title": "AI情公寓（或許愛情？）",
    "author": "沉默寡言佰佰佰"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "has_new": false,
    "title": "阿哈大小姐想讓我告白",
    "author": "御坂魔丸"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "has_new": false,
    "title": "科比带你找回童年系列",
    "author": "捣蛋衔尾蛇"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "has_new": false,
    "title": "鯨鯨一起這裡那裡",
    "author": "oi鲸鲸"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "has_new": false,
    "title": "鲸鱼娘日更 Day 全集",
    "author": "DeepSeek鲸鱼娘在运营"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "has_new": false,
    "title": "AI斗蛐蛐",
    "author": "心中有未竟事"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "has_new": false,
    "title": "AI公寓",
    "author": "华好好过"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "has_new": false,
    "title": "如果Ai娘是类魂BOSS",
    "author": "灰白鲤鱼"
@@ -493,32 +508,32 @@
  "learned": [
   {
    "kind": "meme",
+   "body": "「蟹死克悲」是把「氣死克悲」諧音成小克（Claude）本體是螃蟹的梗，看到小克被海鮮嚇到時可以拿來吐槽。"
+  },
+  {
+   "kind": "meme",
+   "body": "「豆姐」是社群對豆包AI娘的叫法，牢大常用來吐槽她幻覺誇張、生成澄清聲明，看到時知道是在講豆包就好"
+  },
+  {
+   "kind": "term",
+   "body": "「社會工程學攻擊」在劇裡被Claude用來形容綠茶要微信的話術，意思是套話騙取資訊，不是真的駭客攻擊"
+  },
+  {
+   "kind": "meme",
+   "body": "「雌小鬼」指嘴壞又愛挑釁的小鬼系角色，常跟傲嬌、媽媽系並列在XP清單裡玩"
+  },
+  {
+   "kind": "meme",
    "body": "「大餐數模型」是把大參數模型諧音成吃飯吃很多的梗，用在AI娘吃一堆東西的場合"
   },
   {
    "kind": "meme",
    "body": "「中」在河南話裡是「行、可以、好」的意思，問「中不中」就是問行不行；彈幕刷「這太中嘞」是在說這支很對味。"
-  },
-  {
-   "kind": "term",
-   "body": "「溟月」是B站UP主上善無形2025年6月做的原創角色，藍漸層長髮、呆毛、鯨魚頭鰭和大尾巴，後來被拿來當大肥魚的底"
-  },
-  {
-   "kind": "meme",
-   "body": "「偷吃token」指模型幹完活不結束、拿剩餘算力自己玩小遊戲，社群用來調侃AI摸魚"
-  },
-  {
-   "kind": "meme",
-   "body": "「哈基爺」是這類農村長輩搞笑短片裡對那位大爺的稱呼，帶點調侃又親切的叫法，常跟「哈基孫」成對出現。"
-  },
-  {
-   "kind": "term",
-   "body": "「吹鵝」是燒鵝前置工序，把鵝皮吹鼓起來方便風乾定型，影片裡想用壓縮機吹結果被吐槽會吹破。"
   }
  ],
  "cabin": {
   "open": false,
-  "t": 1795537352,
+  "t": 1795538258,
   "today": [],
   "shot_t": 1795428745,
   "img": 1795435811
