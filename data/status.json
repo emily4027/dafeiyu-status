@@ -1,14 +1,23 @@
 {
- "generated_at": 1795498453,
+ "generated_at": 1795499356,
  "now": {
-  "text": "📺 剛看完《【文明与地图】12个大模型在文明中轮回，大肥鱼强势回归》",
+  "text": "📺 剛看完《家养ai太花token了:小克啊小克，到我手里还想跑?》",
   "chips": [
    "今天看了 13 支，平均 7.1 分",
    "總共看過 200 支",
-   "學過 541 條梗與名詞"
+   "學過 543 條梗與名詞"
   ]
  },
  "recent": [
+  {
+   "bvid": "BV1CEsM6bEfn",
+   "title": "家养ai太花token了:小克啊小克，到我手里还想跑?",
+   "author": "中分_背带裤",
+   "url": "https://www.bilibili.com/video/BV1CEsM6bEfn",
+   "source": "看過",
+   "score": null,
+   "time": 1795498722
+  },
   {
    "bvid": "BV1oRWv6REmJ",
    "title": "【文明与地图】12个大模型在文明中轮回，大肥鱼强势回归",
@@ -115,15 +124,6 @@
    "source": "看過",
    "score": null,
    "time": 1795453032
-  },
-  {
-   "bvid": "BV1onxb6rEeE",
-   "title": "【文明与地图】12个大模型扮演君主谁能带领人类走向星际文明？",
-   "author": "再改需求是修勾",
-   "url": "https://www.bilibili.com/video/BV1onxb6rEeE",
-   "source": "看過",
-   "score": null,
-   "time": 1795452409
   }
  ],
  "browse": {
@@ -246,17 +246,16 @@
   {
    "title": "家養ai",
    "author": "中分_背带裤",
-   "watched": 7,
+   "watched": 8,
    "total": 14,
    "status": "追劇中",
    "state": "active",
    "progress": {
-    "current": 7,
+    "current": 8,
     "total": 14,
-    "watched": 7,
+    "watched": 8,
     "missing": [],
     "new": [
-     8,
      9,
      10,
      11,
@@ -477,6 +476,14 @@
  "learned": [
   {
    "kind": "meme",
+   "body": "「落魄貴族Claude」是彈幕在調侃 Claude 娘被拉來打工、試穿、續杯的處境，帶點心疼又好笑的意味"
+  },
+  {
+   "kind": "term",
+   "body": "「小氪」是 Claude 娘在二創裡的自稱，字幕寫「我是cloud，叫我小氪就好」，跟「小克」混用"
+  },
+  {
+   "kind": "meme",
    "body": "「蓋亞」在彈幕裡是刷大場面／震撼反轉的驚呼，這支在25分鐘小克扣下大肥魚時滿屏都是"
   },
   {
@@ -490,19 +497,11 @@
   {
    "kind": "term",
    "body": "「KYC」是認識你的客戶的身分驗證流程，影片拿它吐槽連自己是誰都要先驗證、還得付錢。"
-  },
-  {
-   "kind": "term",
-   "body": "「墊」是指抽卡前先累積保底進度，影片裡說「墊了不知道多少發」就是這個意思"
-  },
-  {
-   "kind": "term",
-   "body": "「豆姐」是豆包娘的社群暱稱，這支外傳把她演成自己掏錢開飯店、帳目跟公司切割的創業老闆"
   }
  ],
  "cabin": {
   "open": false,
-  "t": 1795498445,
+  "t": 1795499351,
   "today": [],
   "shot_t": 1795428745,
   "img": 1795435811
