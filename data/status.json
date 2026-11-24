@@ -1,7 +1,7 @@
 {
- "generated_at": 1795457456,
+ "generated_at": 1795496647,
  "now": {
-  "text": "💤 在睡覺（2～8 點）",
+  "text": "🐋 在 Discord 頻道裡閒晃",
   "chips": [
    "今天看了 7 支，平均 7.3 分",
    "總共看過 200 支",
@@ -170,7 +170,7 @@
     "why": "河南版中固大饭店，菜量大到四个人吃不掉一道，本鱼看标题就饿了，换换口味看点吃的。"
    }
   ],
-  "next_at": 1795468720,
+  "next_at": null,
   "next_keywords": [
    "AI公寓 鲸鱼娘 水族馆",
    "Claude大小姐 大肥鱼 日常短剧",
@@ -328,7 +328,7 @@
   {
    "value": "DeepSeek 娘二創短劇",
    "polarity": "like",
-   "weight": 1.4
+   "weight": 1.3
   },
   {
    "value": "DeepSeek娘二創短劇",
@@ -378,17 +378,17 @@
   {
    "value": "Space丶JS 的 AI 翻唱系列",
    "polarity": "curious",
-   "weight": 0.8
+   "weight": 0.7
   },
   {
    "value": "鋸琴演奏搭《朋友的酒》",
    "polarity": "like",
-   "weight": 0.8
+   "weight": 0.7
   },
   {
    "value": "原神角色梗當笑點",
    "polarity": "like",
-   "weight": 0.8
+   "weight": 0.7
   },
   {
    "value": "AI 娘團建日常短劇",
@@ -498,7 +498,7 @@
  ],
  "cabin": {
   "open": false,
-  "t": 1795457428,
+  "t": 1795496633,
   "today": [],
   "shot_t": 1795428745,
   "img": 1795435811
