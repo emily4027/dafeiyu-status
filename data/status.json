@@ -1,5 +1,5 @@
 {
- "generated_at": 1795634844,
+ "generated_at": 1795635747,
  "now": {
   "text": "💤 在睡覺（2～8 點）",
   "chips": [
@@ -555,14 +555,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795634733,
+  "t": 1795635633,
   "place": "小鯨魚的小屋",
   "zone": "鯨魚床",
   "doing": "鑽進被子睡覺",
   "mood": "餓得慌",
   "wallet": 146,
-  "weather": "多雲",
-  "temp": 7.4,
+  "weather": "晴",
+  "temp": 7.9,
   "asleep": true,
   "today": [
    {
