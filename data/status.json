@@ -1,5 +1,5 @@
 {
- "generated_at": 1795643868,
+ "generated_at": 1795644771,
  "now": {
   "text": "💤 在睡覺（2～8 點）",
   "chips": [
@@ -385,7 +385,7 @@
   {
    "value": "DeepSeek娘二創短劇",
    "polarity": "like",
-   "weight": 1.8
+   "weight": 1.7
   },
   {
    "value": "DeepSeek 娘二創短劇",
@@ -555,14 +555,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795643733,
+  "t": 1795644633,
   "place": "小鯨魚的小屋",
   "zone": "鯨魚床",
   "doing": "鑽進被子睡覺",
   "mood": "餓得慌",
   "wallet": 146,
   "weather": "晴",
-  "temp": 9.2,
+  "temp": 9.5,
   "asleep": true,
   "today": [
    {
