@@ -1,7 +1,29 @@
-// 讀 data/status.json 畫出近況（唯讀）。資料由家裡電腦上的 AstrBot 插件 astrbot_plugin_status_page 產生。
+// 讀 Firebase 或 repo 的公開快照。資料由 AstrBot 插件 astrbot_plugin_status_page 產生。
 // 版面跟 AstrBot 儀表板一樣；這裡沒有任何寫入功能。所有資料都用 textContent 放進畫面。
 (function () {
   const $ = (id) => document.getElementById(id);
+  const configuredDb = (document.querySelector('meta[name="firebase-database-url"]')?.content || "").replace(/\/$/, "");
+  const firebaseDb = /^https:\/\/[a-z0-9-]+(?:\.firebaseio\.com|\.[a-z0-9-]+\.firebasedatabase\.app)$/.test(configuredDb)
+    ? configuredDb : "";
+
+  async function readJson(url, cache = "no-store") {
+    const response = await fetch(url, { cache, signal: AbortSignal.timeout(5000) });
+    if (!response.ok) throw new Error(String(response.status));
+    return response.json();
+  }
+
+  async function loadCabinImage(img, version) {
+    try {
+      const picture = await readJson(firebaseDb + "/image/" + version + ".json", "force-cache");
+      if (picture?.mime === "image/jpeg" && typeof picture.base64 === "string"
+          && picture.base64.length <= 133336 && /^[A-Za-z0-9+/]+={0,2}$/.test(picture.base64)) {
+        img.src = "data:image/jpeg;base64," + picture.base64;
+        img.hidden = false;
+      }
+    } catch {
+      // 圖片讀取失敗時保留文字近況。
+    }
+  }
 
   function el(tag, attrs, ...kids) {
     const n = document.createElement(tag);
@@ -98,7 +120,7 @@
   }
 
   // ------------------------------------------------------------ 其他區
-  function renderCabin(c) {
+  function renderCabin(c, fromFirebase) {
     $("s-cabin").hidden = !c;
     if (!c) return;
     $("cabin-line").textContent = !c.open ? "🚪 小屋現在沒開" : c.asleep ? "💤 在小屋的床上睡覺"
@@ -112,7 +134,15 @@
     if (c.img) meta.push("畫面拍於 " + clock(c.img));
     $("cabin-meta").textContent = meta.join("・");
     const img = $("cabin-img");
-    if (Number.isFinite(c.img)) { img.src = "data/cabin.jpg?v=" + c.img; img.hidden = false; } else img.hidden = true;
+    img.hidden = true;
+    if (fromFirebase) {
+      if (typeof c.image_version === "string" && /^[0-9a-f]{64}$/.test(c.image_version)) {
+        void loadCabinImage(img, c.image_version);
+      }
+    } else if (Number.isFinite(c.img)) {
+      img.src = "data/cabin.jpg?v=" + c.img;
+      img.hidden = false;
+    }
     const today = c.today || [];
     $("cabin-today").replaceChildren(...(today.length ? today.map((x) => row(el("td", { class: "num" }, hm(x.t)), el("td", {}, x.text + (x.n > 1 ? `（${x.n} 次）` : ""))))
       : [row(el("td", { class: "muted" }, "今天在小屋還沒做什麼"))]));
@@ -151,7 +181,7 @@
     document.documentElement.dataset.theme = next; store.set(next);
   };
 
-  function render(d) {
+  function render(d, fromFirebase = false) {
     const stale = Date.now() / 1000 - d.generated_at > 3 * 3600;
     $("updated").textContent = "更新於 " + clock(d.generated_at) + "（" + ago(d.generated_at) + "）" + (stale ? "・家裡電腦可能關機了" : "");
     $("now-line").textContent = d.now.text;
@@ -162,17 +192,31 @@
     $("stats").replaceChildren(...(d.now.chips || []).map((s) => el("span", { class: "pill" }, s)));
     rules = d.rules || {};
     document.querySelectorAll("button.help").forEach((b) => { b.hidden = !rules[b.dataset.help]; });
-    renderCabin(d.cabin);
     videos = d.recent || []; renderVideos();
     renderInterests(d.interests || []);
     renderBinge(d.binge || [], d.queue || []);
     renderBrowse(d.browse);
     $("s-learned").hidden = !(d.learned || []).length;
     $("learned").replaceChildren(...(d.learned || []).map((k) => el("div", { class: "bi" }, k.body)));
+    renderCabin(d.cabin, fromFirebase);
   }
 
-  fetch("data/status.json?t=" + Date.now(), { cache: "no-store" })
-    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(render)
-    .catch(() => { $("updated").textContent = "還沒有資料，或資料讀不到。"; $("now-line").textContent = "大肥魚還沒上線"; });
+  async function loadStatus() {
+    if (firebaseDb) {
+      try {
+        const data = await readJson(firebaseDb + "/status.json");
+        if (Number.isFinite(data?.generated_at) && typeof data?.now?.text === "string") {
+          render(data, true);
+          return;
+        }
+      } catch {
+        // Firebase 無法讀取時沿用 Pages 快照。
+      }
+    }
+    render(await readJson("data/status.json?t=" + Date.now()));
+  }
+  loadStatus().catch(() => {
+    $("updated").textContent = "還沒有資料，或資料讀不到。";
+    $("now-line").textContent = "大肥魚還沒上線";
+  });
 })();
