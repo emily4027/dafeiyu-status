@@ -1,5 +1,5 @@
 {
- "generated_at": 1795668233,
+ "generated_at": 1795669135,
  "now": {
   "text": "🐋 在 Discord 頻道裡閒晃",
   "chips": [
@@ -438,6 +438,11 @@
    "weight": 0.9
   },
   {
+   "value": "AI娘短劇惡搞放生功德梗",
+   "polarity": "like",
+   "weight": 0.8
+  },
+  {
    "value": "飯盆鎖血設定",
    "polarity": "like",
    "weight": 0.8
@@ -489,11 +494,6 @@
   },
   {
    "value": "超级瓜的瓜的雙魚日常短片",
-   "polarity": "like",
-   "weight": 0.8
-  },
-  {
-   "value": "AI 娘公寓群像劇",
    "polarity": "like",
    "weight": 0.8
   }
@@ -590,14 +590,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795668034,
+  "t": 1795668934,
   "place": "小鯨魚的小屋",
   "zone": "書架",
   "doing": "從書架上抽一本書翻翻",
   "mood": "很開心",
   "wallet": 116,
   "weather": "陰天",
-  "temp": 15.7,
+  "temp": 15.9,
   "asleep": false,
   "today": [
    {
@@ -651,7 +651,7 @@
     "text": "剛才趴在圓窗邊看外面，手上有事做，心也跟著定下來；感覺還不錯"
    }
   ],
-  "shot_t": 1795633533,
-  "img": 1795633941
+  "shot_t": 1795668934,
+  "img": 1795669135
  }
 }
