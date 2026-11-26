@@ -1,5 +1,5 @@
 {
- "generated_at": 1795667330,
+ "generated_at": 1795668233,
  "now": {
   "text": "🐋 在 Discord 頻道裡閒晃",
   "chips": [
@@ -249,15 +249,17 @@
    "title": "家養ai",
    "author": "中分_背带裤",
    "watched": 14,
-   "total": 14,
-   "status": "追到最新一集",
-   "state": "caught_up",
+   "total": 15,
+   "status": "有新集，等空位",
+   "state": "update_wait",
    "progress": {
     "current": 14,
-    "total": 14,
+    "total": 15,
     "watched": 14,
     "missing": [],
-    "new": []
+    "new": [
+     15
+    ]
    }
   },
   {
@@ -361,48 +363,54 @@
  "queue": [
   {
    "rank": 1,
+   "has_new": true,
+   "title": "家養ai",
+   "author": "中分_背带裤"
+  },
+  {
+   "rank": 2,
    "has_new": false,
    "title": "阿哈大小姐想讓我告白",
    "author": "御坂魔丸"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "has_new": false,
    "title": "科比带你找回童年系列",
    "author": "捣蛋衔尾蛇"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "has_new": false,
    "title": "鯨鯨一起這裡那裡",
    "author": "oi鲸鲸"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "has_new": false,
    "title": "鲸鱼娘日更 Day 全集",
    "author": "DeepSeek鲸鱼娘在运营"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "has_new": false,
    "title": "AI斗蛐蛐",
    "author": "心中有未竟事"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "has_new": false,
    "title": "AI公寓",
    "author": "华好好过"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "has_new": false,
    "title": "如果Ai娘是类魂BOSS",
    "author": "灰白鲤鱼"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "has_new": false,
    "title": "大肥鱼",
    "author": "和你熟"
@@ -582,14 +590,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795667134,
+  "t": 1795668034,
   "place": "小鯨魚的小屋",
   "zone": "書架",
   "doing": "從書架上抽一本書翻翻",
   "mood": "很開心",
-  "wallet": 120,
-  "weather": "毛毛雨",
-  "temp": 14.6,
+  "wallet": 116,
+  "weather": "陰天",
+  "temp": 15.7,
   "asleep": false,
   "today": [
    {
