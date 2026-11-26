@@ -155,6 +155,10 @@
     const stale = Date.now() / 1000 - d.generated_at > 3 * 3600;
     $("updated").textContent = "更新於 " + clock(d.generated_at) + "（" + ago(d.generated_at) + "）" + (stale ? "・家裡電腦可能關機了" : "");
     $("now-line").textContent = d.now.text;
+    const formLine = $("form-line");
+    const formName = d.form?.name;
+    formLine.hidden = formName !== "大隻" && formName !== "Q 版";
+    formLine.textContent = formLine.hidden ? "" : "現在：" + formName;
     $("stats").replaceChildren(...(d.now.chips || []).map((s) => el("span", { class: "pill" }, s)));
     rules = d.rules || {};
     document.querySelectorAll("button.help").forEach((b) => { b.hidden = !rules[b.dataset.help]; });
