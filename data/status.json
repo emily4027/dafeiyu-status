@@ -1,5 +1,5 @@
 {
- "generated_at": 1795672741,
+ "generated_at": 1795673643,
  "now": {
   "text": "🐋 在 Discord 頻道裡閒晃",
   "chips": [
@@ -599,14 +599,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795672718,
+  "t": 1795673618,
   "place": "小鯨魚的小屋",
   "zone": "圓窗",
   "doing": "趴在圓窗邊看外面",
   "mood": "有點難過",
   "wallet": 114,
-  "weather": "陰天",
-  "temp": 16.5,
+  "weather": "毛毛雨",
+  "temp": 15.6,
   "asleep": false,
   "today": [
    {
