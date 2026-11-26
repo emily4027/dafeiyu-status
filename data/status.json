@@ -1,5 +1,5 @@
 {
- "generated_at": 1795653795,
+ "generated_at": 1795654697,
  "now": {
   "text": "📺 剛看完《大肥鱼：护 饭 使 者》",
   "chips": [
@@ -282,8 +282,8 @@
    "author": "牢大百科",
    "watched": 9,
    "total": 9,
-   "status": "追劇中",
-   "state": "active",
+   "status": "追到最新一集",
+   "state": "caught_up",
    "progress": {
     "current": 9,
     "total": 9,
@@ -549,14 +549,14 @@
  ],
  "cabin": {
   "open": true,
-  "t": 1795653633,
+  "t": 1795654533,
   "place": "小賣部後面的湯屋",
   "zone": "淺池上面的石座",
   "doing": "靠在石座上安靜地泡著",
   "mood": "很開心",
   "wallet": 133,
   "weather": "陣雨",
-  "temp": 8.7,
+  "temp": 9,
   "asleep": false,
   "today": [
    {
